@@ -1,0 +1,245 @@
+/* CSS for home page */
+
+/* CSS of body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mitr', sans-serif;
+}
+
+.clearfix {
+    clear: both;
+}
+
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+.menubar {
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    box-shadow: 0 0 10px #666; 
+}
+.menubar .logo {
+    float: left;
+    color: #007acc;
+}
+.menubar h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: normal;
+    padding: 10px;
+}
+.menubar ul.menu {
+    list-style: none;
+    float: right;
+}
+.menubar ul.menu li {
+    float: left;
+    margin-right: 20px;
+}
+.menubar ul.menu li a {
+    text-decoration: none;
+    color: #333;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 20px;
+    transition: all 0.3s ease;
+}
+.menubar ul.menu li a:hover {
+    border-bottom: 2px solid #007acc;
+    padding-bottom: 0;
+}
+.header {
+    background: #666 url(../home_page/Background/welcome_to_this_website_02.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.header_area {
+    padding-top: 150px;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+    width: 660px;
+}
+.header_area h1 {
+    margin: 0;
+    font-size: 60px;
+    font-weight: normal;
+}
+
+.header_area p {
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 480px;
+    font-size: 16px;
+}
+
+.info1 {
+    width: 100%;
+    height: 400px;
+    background-color: #ededed;
+}
+.info1_area {
+    color: #333;
+}
+.info1_area img {
+    margin-top: 117px;
+    float: left;
+    padding-left: 50px;
+}
+.info1_text {
+    text-align: center;
+    width: 460px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 140px;
+}
+.info1_area h1 {
+    margin: 0;
+    font-weight: normal;
+}
+
+.info2 {
+    width: 100%;
+    height: 400px;
+    background: #333;
+}
+
+.info2_area {
+    color: #333;
+}
+
+.info2_area img {
+    margin-top: 48px;
+    float: left;
+    margin-left: 40px;
+}
+.info2_text {
+    text-align: center;
+    width: 460px;
+    float: left;
+    margin-left: 70px;
+    margin-top: 140px;
+    color: #fff;
+}
+
+.info2_area h1 {
+    margin: 0;
+    font-weight: normal;
+}
+/* End CSS of body */
+
+
+
+
+
+/* CSS of clearfix */
+.clearfix {
+    clear: both;
+}
+/* End CSS of cearfix */
+
+
+
+
+
+/* CSS of last page */
+.footer_banner {
+	background-color: #007acc;
+	padding-top: 60px;
+	padding-bottom: 60PX;
+	margin-bottom: 0px;
+	background-repeat: repeat;
+}
+
+.hero_header {
+	color: #FFFFFF;
+	text-align: center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	letter-spacing: 4px;
+    font-size: 20px;
+}
+
+.button {
+	width: 200px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border: 3px solid #FFFFFF;
+	color: #FFFFFF;
+	transition: all 0.3s linear;
+    text-decoration: none;
+}
+.button:hover {
+	background-color: #FEFEFE;
+	color: #007acc;
+	cursor: pointer;
+    text-decoration: none;
+}
+/* End CSS of last page */
+
+
+
+/*CSS of footer */
+footer {
+    background: #333;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+footer p {
+    margin: 0;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 40px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+  
+.fa:hover {
+    color: #007acc;
+    opacity: 0.7;
+}
+  
+.fa-facebook {
+    color: white;
+}
+  
+.fa-google {
+    color: white;
+}
+  
+.fa-phone {
+    color: white;
+}
+  
+.fa-youtube-play {
+    color: white;
+}
+
+.fa-instagram {
+    color: white;
+}
+/* End CSS of footer */

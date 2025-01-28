@@ -1,0 +1,128 @@
+<!-- รายงานผล Covid -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- link CSS Stylesheet -->
+  <link rel="stylesheet" href="../page_report/Style.css">
+
+  <!-- link short cut icon -->
+  <link rel="shortcut icon" href="F:\Project\Image\Logo\Favion\favicon.ico">
+
+  <!-- link font from Google_font -->
+  <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@400;500;700&display=swap" rel="stylesheet">
+  
+  <!-- meta UTF-8 -->
+  <meta charset="UTF-8">
+
+  <!-- meta viewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- link to Font Awesome -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- name of header -->
+  <title>Situation of COVID-19</title>
+</head>
+<body>
+    <!-- header -->
+    <div class="menubar">
+        <div class="container_menubar">
+            <div class="logo">
+                <h1>Do covid</h1>
+            </div>
+            <ul class="menu">
+                <li>
+                    <a href="../home_page/index.html">หน้าหลัก</a>
+                </li>
+                <li>
+                    <a href="#">บทความ</a>
+                </li>
+                <li>
+                    <a href="../page_report/index.html">รายงานผลผู้ติดเชื้อ</a>
+                </li>
+                <li>
+                    <a href="../page_call_center/index.html">ติดต่อสอบถาม</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+    <!-- total_cases -->
+    <div class="wrapper">
+
+        <div class="statistic">
+            <div class="total_case_box">
+                <h2>
+                    <i class="fa fa-address-book" aria-hidden = "true"></i>
+                    Total Cases
+                </h2>
+                <p style="font-size: 1.5rem;" id="total_cases">test</p>
+            </div>
+            <!-- total_dreath -->
+            <div class="box_wrapper">
+                <div class="box">
+                    <h2>
+                        <i class="fa fa-user-times" aria-hidden = "true"></i>
+                        Total Death
+                    </h2>
+                    <p style="font-size: 1.5rem;" id="total_death">test</p>
+                </div>
+
+                <!-- total_recovery -->
+                <div class="box">
+                    <h2>
+                        <i class="fa fa-refresh" aria-hidden = "true"></i>
+                        Total Recovery
+                    </h2>
+                    <p style="font-size: 1.5rem;" id="total_recovered">test</p>
+                </div>
+
+                <!-- new_case  -->
+                <div class="box">
+                    <h2>
+                        <i class="fa fa-plus-circle" aria-hidden = "true"></i>
+                        New case
+                    </h2>
+                    <p style="font-size: 1.5rem;" id="new_case">test</p>
+                </div>
+
+                <!-- new_death -->
+                <div class="box">
+                    <h2>
+                        <i class="fa fa-user-circle-o" aria-hidden = "true"></i>
+                        New Death
+                    </h2>
+                    <p style="font-size: 1.5rem;" id="new_death">test</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- table class -->
+        <table class="countries_stat" id="countries_stat">
+            <tr>
+                <th>Country</th>
+                <th>Cases</th>
+                <th>Deaths</th>
+                <th>Serious critical</th>
+                <th>Total recovered</th>
+            </tr>
+        </table>
+    </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <a href="https://www.instagram.com/who/" class="fa fa-instagram"></a>
+        <a href="https://www.facebook.com/thaimoph" class="fa fa-facebook"></a>
+        <a href="../page_call_center/index.html" class="fa fa-phone"></a>
+        <a href="https://ddc.moph.go.th/viralpneumonia/index.php" class="fa fa-google"></a>
+        <a href="https://ddc.moph.go.th/viralpneumonia/vdo.php" class="fa fa-youtube-play"></a>
+        <p>Do Covid | Copyright &copy; 2021</p>
+    </footer>
+
+    <!-- Link the java script -->
+    <script src="Script.js"></script>
+</body>
+</html>
